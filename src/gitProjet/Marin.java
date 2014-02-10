@@ -39,4 +39,10 @@ public class Marin {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	@Override
+	public String toString() {
+		return "Marin [id=" + id + ", nom=" + nom + ", Prenom=" + Prenom
+				+ ", salaire=" + salaire + ", age=" + age + "]";
+	}
+	
 }
